@@ -37,9 +37,11 @@
       </div>
 
       <template #footer>
-        <UButton to="/contacto" variant="ghost" color="gray">
+        <UButton to="/contacto" variant="ghost" color="neutral">
           Ir a Contacto &rarr;
         </UButton>
+
+        <UButton label="Ir a Toast" variant="outline" color="success" to="/toast-examples"/>
       </template>
     </UCard>
   </UContainer>
