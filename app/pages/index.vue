@@ -3,8 +3,9 @@
     <UCard>
       <template #header>
         <div class="flex justify-between items-center">
-          <h1 class="text-xl font-bold text-primary-500">
-            🏠 Página de Inicio (Nuxt UI)
+          <h1 class="text-xl font-bold text-primary-500 flex items-center gap-2">
+            <UIcon name="i-lucide-rocket" class="w-6 h-6 text-pink-500" />
+            Página de Inicio (Nuxt UI)
           </h1>
           <UBadge color="green" variant="subtle">Nuxt 4 Activo</UBadge>
         </div>
@@ -23,7 +24,7 @@
           />
           
           <UButton 
-            icon="i-heroicons-hand-thumb-up"
+            icon="i-lucide-heart"
             @click="contador++"
           >
             Likes: {{ contador }}

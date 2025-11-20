@@ -5,6 +5,5 @@
     
     <NuxtPage />
     
-    <UNotifications />
   </UApp>
 </template>

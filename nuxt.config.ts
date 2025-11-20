@@ -2,10 +2,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  
-  // 1. Agregamos el módulo
-  modules: ['@nuxt/ui'],
 
-  // 2. Registramos el CSS global (que crearemos ahora)
+  modules: [
+    '@nuxt/ui',
+    '@pinia/nuxt',
+  ],
+
   css: ['~/assets/css/main.css']
 })
